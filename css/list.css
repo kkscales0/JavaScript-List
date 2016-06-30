@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+}
+
+div, p {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14pt
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14pt;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-color: #708090;
+    border-width: medium;
+    border-style: outset;
+    margin: 1px
+}
+
+.itemlabel {
+    float: left;
+    width: 86%;
+    padding-left: 14%;
+}
+
+.itemlabel:focus {
+    outline: none;
+}
+
+.editicon {
+    color: #6b8eb2;
+    opacity: .2;
+}
+
+.editicon:hover {
+    opacity: 1;
+}
+
+.trashicon {
+    color: red;
+    opacity: .2;
+}
+
+.trashicon:hover {
+    opacity: 1;
+}
+
+.addicon {
+    color: #99CCFF;
+    padding: 0px;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.addicon:hover {
+    color: #6b8eb2;
+}
+
+#additem{
+    border-style: hidden;
+    border-radius: 50px;
+    float: right;
+    
+}
+
+#additem:hover {
+    background-color: inherit;
+}
+
+#additeminput {
+    border-radius: 10px;
+    height: 40px;
+    border-style:ridge;
+    text-align: center;
+
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #b22222;
+    border-style: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
